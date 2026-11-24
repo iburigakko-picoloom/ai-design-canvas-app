@@ -1,7 +1,7 @@
 // The Pages build inserts the exact files and version for this release.
 const prefix = 'design-canvas:' + self.registration.scope + ':';
-const cacheName = prefix + "ad6d2c250c5c4a078892";
-const assets = ["assets/export-9Mhan-6h.js","assets/html2canvas.esm-DXEQVQnt.js","assets/index-BTpfmjAV.js","assets/index-DjkF0EUZ.css","assets/pages-store-CJX3V_uu.js","index.html","manifest.webmanifest","icon.svg","icon-180.png","icon-192.png","icon-512.png"].map(file => new URL(file, self.registration.scope).href);
+const cacheName = prefix + "6be5dbf1946c5a0517e9";
+const assets = ["assets/export-CalFSQqv.js","assets/html2canvas.esm-DXEQVQnt.js","assets/index-DYV04KR8.js","assets/index-DjkF0EUZ.css","assets/pages-store-Dv_wjDuk.js","index.html","manifest.webmanifest","icon.svg","icon-180.png","icon-192.png","icon-512.png"].map(file => new URL(file, self.registration.scope).href);
 const entry = new URL('index.html', self.registration.scope).href;
 
 self.addEventListener('install', event => {
